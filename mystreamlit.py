@@ -18,6 +18,7 @@ elif option == "DataFrame":
         'Coloumn 1': [1,2,3,4],
         'Coloumn 2': [10,12,14,16]
     })
+    # st.line_chart(df)
     df #displays dataframe
 elif option == "Chart":
     st.write("""## Draw Charts""") #Displays the title page chart
@@ -32,7 +33,7 @@ elif option == "Chart":
     # displays the data in chart form
     st.line_chart(chart_data)
     #data dalam bentuk tabel
-    chart_data
+    # chart_data
     
     
     
